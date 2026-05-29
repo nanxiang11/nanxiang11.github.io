@@ -35,7 +35,6 @@
     "layout/page",
     "layout/archive",
     "layout/sidebar",
-    "layout/json_cv",
 
     "vendor/font-awesome/fontawesome",
     "vendor/font-awesome/solid",
@@ -749,48 +748,6 @@ body {
 
   .lw-competition-hero aside strong {
     font-size: 1.32rem;
-  }
-
-  .cv-container {
-    max-width: 100%;
-    overflow-x: hidden;
-  }
-
-  .cv-container h1,
-  .cv-container h2,
-  .cv-container h3,
-  .cv-container p,
-  .cv-container li,
-  .cv-container a,
-  .cv-container span,
-  .cv-container strong {
-    overflow-wrap: anywhere;
-    word-break: break-word;
-  }
-
-  .cv-section h2 {
-    font-size: 1.35rem;
-  }
-
-  .cv-item-title {
-    font-size: 1rem;
-  }
-
-  .cv-contact-info,
-  .cv-profiles,
-  .cv-item-header {
-    display: grid;
-    gap: 0.35rem;
-  }
-
-  .cv-list,
-  .cv-item-highlights {
-    padding-left: 1rem;
-  }
-
-  .cv-skills,
-  .cv-interests {
-    grid-template-columns: 1fr;
   }
 }
 

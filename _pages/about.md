@@ -12,7 +12,6 @@ redirect_from:
   <h1>把具身智能、多模态模型和视觉感知落到真实任务里。</h1>
   <p class="lw-hero-lead">上海工程技术大学电子信息硕士，研究方向聚焦 VLA/具身智能系统、轻量化语义分割、多尺度特征建模与工业视觉感知。我更关注模型结构、数据闭环和工程落地之间的连接。</p>
   <div class="lw-actions">
-    <a class="btn btn--primary" href="/files/liuwenhao-cv.pdf">下载简历 PDF</a>
     <a class="btn" href="https://github.com/nanxiang11">GitHub</a>
     <a class="btn" href="/portfolio/">查看项目</a>
   </div>

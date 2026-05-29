@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 720" role="img" aria-labelledby="title desc">
+  <title id="title">刘文豪头像</title>
+  <desc id="desc">刘文豪个人主页的圆形字母头像。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f7f7f2"/>
+      <stop offset="0.5" stop-color="#d8ece4"/>
+      <stop offset="1" stop-color="#dbe7f6"/>
+    </linearGradient>
+    <linearGradient id="ink" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#1f2937"/>
+      <stop offset="1" stop-color="#0f766e"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="720" fill="url(#bg)"/>
+  <circle cx="360" cy="360" r="236" fill="#ffffff" opacity="0.72"/>
+  <path d="M191 484c54-99 128-153 222-162 51-5 90-25 116-61" fill="none" stroke="#0f766e" stroke-width="18" stroke-linecap="round" opacity="0.24"/>
+  <path d="M198 249c82 25 141 63 176 115 36 55 86 90 150 106" fill="none" stroke="#2563eb" stroke-width="12" stroke-linecap="round" opacity="0.18"/>
+  <circle cx="212" cy="246" r="13" fill="#0f766e" opacity="0.55"/>
+  <circle cx="412" cy="322" r="16" fill="#2563eb" opacity="0.42"/>
+  <circle cx="529" cy="261" r="13" fill="#0f766e" opacity="0.44"/>
+  <circle cx="524" cy="470" r="15" fill="#2563eb" opacity="0.36"/>
+  <text x="360" y="395" text-anchor="middle" font-family="Inter, 'Noto Sans SC', 'Microsoft YaHei', sans-serif" font-size="156" font-weight="700" fill="url(#ink)">刘</text>
+  <text x="360" y="469" text-anchor="middle" font-family="Inter, 'Noto Sans SC', 'Microsoft YaHei', sans-serif" font-size="42" font-weight="600" fill="#374151" letter-spacing="4">WENHAO LIU</text>
+</svg>

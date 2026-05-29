@@ -1,152 +1,139 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
+    "name": "刘文豪",
+    "label": "AI 算法工程师 | 具身智能 / 多模态 / 视觉感知",
+    "email": "liuwenhao1968@163.com",
     "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "website": "https://nanxiang11.github.io",
+    "summary": "上海工程技术大学电子信息硕士，研究与工程方向聚焦具身智能、多模态大模型、轻量化语义分割、多尺度特征建模和工业视觉感知。",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
-      "region": ""
+      "city": "上海",
+      "countryCode": "CN",
+      "region": "中国"
     },
     "profiles": [
       {
-        "network": "Google Scholar",
-        "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-      },
-      {
-        "network": "ORCID",
-        "username": "",
-        "url": "https://orcid.org/yourorcidurl"
-      },
-      {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "nanxiang11",
+        "url": "https://github.com/nanxiang11"
       }
     ]
   },
-  "work": [],
-  "education": [
+  "work": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
-      "gpa": null,
-      "courses": []
+      "company": "商汤科技 SenseTime",
+      "position": "算法实习生",
+      "startDate": "2025.04",
+      "endDate": "2025.11",
+      "summary": "参与具身智能无人零售系统、图像质量分类、人体分割数据生成和旋转检测优化。",
+      "highlights": [
+        "基于 π0.5 模型进行无人零售场景适配，构建指令-动作数据与遥操作数据采集流程。",
+        "设计视觉检测结果与 Prompt 融合策略，参与系统联调并打通关键端到端流程。",
+        "优化 EfficientNetV2 图像质量分类模型，生成 100w+ 训练图像，测试集准确率达到 99.7%。",
+        "通过旋转检测训练策略和数据预处理优化，线上方案提升 6.5% 检测准确率和 3.1% 召回率。"
+      ]
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
-      "gpa": null,
-      "courses": []
+      "company": "首形科技",
+      "position": "具身智能算法实习生",
+      "startDate": "2025.12",
+      "endDate": "2026.01",
+      "summary": "研发具身智能多模态情感交互系统。",
+      "highlights": [
+        "基于 Qwen3 微调构建情感感知对话模型。",
+        "设计情感提示词体系，将文本语义映射为 8 维情绪向量。",
+        "建立 LLM 情绪向量到 TTS 的控制链路，完成实时推理闭环。"
+      ]
     }
   ],
-  "skills": [],
-  "languages": [],
-  "interests": [],
+  "education": [
+    {
+      "institution": "上海工程技术大学",
+      "area": "电子信息硕士",
+      "studyType": "硕士",
+      "startDate": "2023.09",
+      "endDate": "2026.06",
+      "gpa": null,
+      "courses": [
+        "具身智能",
+        "多模态大模型",
+        "轻量化语义分割",
+        "工业视觉感知"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "具身智能",
+      "keywords": ["VLA", "遥操作数据", "指令-动作建模", "系统联调"]
+    },
+    {
+      "name": "多模态与大模型",
+      "keywords": ["Transformer", "MoE", "LoRA", "CLIP", "Qwen", "LLM + TTS"]
+    },
+    {
+      "name": "视觉算法",
+      "keywords": ["语义分割", "裂缝分割", "人体分割", "目标检测", "旋转检测", "图像质量分类"]
+    },
+    {
+      "name": "工程实践",
+      "keywords": ["数据生成闭环", "模型训练推理", "百万级数据训练", "千万级数据推理", "端到端落地验证"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Chinese",
+      "fluency": "Native"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Research Focus",
+      "keywords": ["具身智能", "多模态大模型", "视觉感知", "多尺度特征建模"]
+    }
+  ],
   "references": [],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "https://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "V2Net: A Nested Framework for Crack Segmentation Based on Multiscale Feature Learning",
+      "publisher": "IEEE Transactions on Instrumentation and Measurement",
+      "releaseDate": "2026-01-01",
+      "website": "",
+      "summary": "第一作者。提出面向工业裂缝分割的嵌套式多尺度特征学习框架。"
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "https://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "HAFNet: Hierarchical Attention and Feature Fusion for Real-Time Lightweight Semantic Segmentation",
+      "publisher": "IEEE Transactions on Pattern Analysis and Machine Intelligence, Under Review",
+      "releaseDate": "2026-02-01",
+      "website": "",
+      "summary": "第一作者。提出分层注意力与特征融合的实时轻量化语义分割架构。"
     }
   ],
-  "presentations": [
-    {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
-    }
-  ],
-  "teaching": [
-    {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
-    },
-    {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
-    }
-  ],
+  "presentations": [],
+  "teaching": [],
   "portfolio": [
     {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
+      "name": "星语 MoE",
+      "category": "大模型",
       "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+      "url": "https://github.com/nanxiang11/CodeLab_LLM",
+      "description": "从零实现 LLaMA3 核心模块与 MoE-FFN 替换策略，构建 0.2B 参数量可训练推理大模型。"
+    },
+    {
+      "name": "星语 Vision",
+      "category": "多模态",
+      "date": "",
+      "url": "https://www.modelscope.cn/studios/nanxiang1968/XY-Vision/summary",
+      "description": "基于 CLIP 视觉编码器和文本 Transformer 实现图像-文本联合推理闭环。"
+    },
+    {
+      "name": "星语 pi0",
+      "category": "VLA",
+      "date": "",
+      "url": "https://github.com/nanxiang11/XY_Pi0",
+      "description": "围绕 pi0 源码拆解视觉编码、语言建模与动作预测模块，构建最小复现系统。"
     }
   ]
 }

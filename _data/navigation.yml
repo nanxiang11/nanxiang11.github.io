@@ -14,6 +14,9 @@ main:
   - title: "项目"
     url: /portfolio/
 
+  - title: "竞赛"
+    url: /competitions/
+
   - title: "简历"
     url: /cv/
     

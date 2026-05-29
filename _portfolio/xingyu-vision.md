@@ -3,6 +3,22 @@ title: "星语 Vision：自研多模态大模型"
 excerpt: "基于 CLIP 视觉编码器和文本 Transformer 的图像-文本联合推理系统，完成多模态最小可验证闭环。"
 collection: portfolio
 link: "https://www.modelscope.cn/studios/nanxiang1968/XY-Vision/summary"
+order: 20
+type: "Multimodal LLM"
+status: "Demo"
+image: "/images/project-xingyu-vision.svg"
+stats:
+  - "0.2B Parameters"
+  - "CPU 6 token/s"
+  - "Vision Token Fusion"
+tags:
+  - CLIP
+  - VLM
+  - LoRA
+  - Image-Text
+links:
+  - label: "ModelScope"
+    url: "https://www.modelscope.cn/studios/nanxiang1968/XY-Vision/summary"
 ---
 
 在线体验：[ModelScope](https://www.modelscope.cn/studios/nanxiang1968/XY-Vision/summary)。

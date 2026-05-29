@@ -7,8 +7,53 @@ author_profile: true
 
 {% include base_path %}
 
-这里记录我在大模型、多模态、VLA 和视觉算法方向的开源实践与竞赛项目。
+<section class="lw-page-intro">
+  <p class="lw-eyebrow">Projects</p>
+  <h1>从论文代码到大模型最小闭环。</h1>
+  <p>这里整理我的开源项目、科研代码和竞赛项目。卡片中的图片优先使用 GitHub 仓库预览或本地视觉缩略图，便于快速判断项目方向。</p>
+</section>
 
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
-{% endfor %}
+{% assign projects = site.portfolio | sort: "order" %}
+<div class="lw-project-grid">
+  {% for post in projects %}
+    <article class="lw-project-card">
+      {% if post.image %}
+        <a class="lw-project-media" href="{{ post.link | default: post.url }}" {% if post.link %}target="_blank" rel="noopener"{% endif %}>
+          <img src="{{ post.image }}" alt="{{ post.title }} preview" loading="lazy">
+        </a>
+      {% endif %}
+      <div class="lw-project-body">
+        <div class="lw-card-meta">
+          {% if post.type %}<span>{{ post.type }}</span>{% endif %}
+          {% if post.status %}<span>{{ post.status }}</span>{% endif %}
+        </div>
+        <h2><a href="{{ post.link | default: post.url }}" {% if post.link %}target="_blank" rel="noopener"{% endif %}>{{ post.title }}</a></h2>
+        <p>{{ post.excerpt | strip_html }}</p>
+        {% if post.stats %}
+          <div class="lw-mini-stats">
+            {% for stat in post.stats %}
+              <span>{{ stat }}</span>
+            {% endfor %}
+          </div>
+        {% endif %}
+        {% if post.tags %}
+          <div class="lw-tags">
+            {% for tag in post.tags %}
+              <span>{{ tag }}</span>
+            {% endfor %}
+          </div>
+        {% endif %}
+        <div class="lw-card-actions">
+          <a href="{{ post.url }}">详情</a>
+          {% if post.links %}
+            {% for item in post.links %}
+              <a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.label }}</a>
+            {% endfor %}
+          {% elsif post.link %}
+            <a href="{{ post.link }}" target="_blank" rel="noopener">外部链接</a>
+          {% endif %}
+        </div>
+      </div>
+    </article>
+  {% endfor %}
+</div>

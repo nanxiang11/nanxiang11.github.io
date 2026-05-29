@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Data Science Bowl 细胞核分割项目缩略图</title>
+  <desc id="desc">细胞核分割比赛的显微图风格缩略图。</desc>
+  <rect width="1200" height="630" fill="#f8fafc"/>
+  <rect x="64" y="64" width="1072" height="502" rx="8" fill="#ffffff" stroke="#dbe3ef" stroke-width="3"/>
+  <text x="104" y="145" font-family="Inter, Arial, sans-serif" font-size="42" font-weight="700" fill="#172033">Nuclei Segmentation</text>
+  <text x="104" y="191" font-family="Inter, Arial, sans-serif" font-size="24" fill="#526173">Data Science Bowl · U-Net · Dense Skip · Strong Augmentation</text>
+  <g opacity=".9">
+    <circle cx="234" cy="310" r="58" fill="#8b5cf6" opacity=".20" stroke="#6d5bd0" stroke-width="7"/>
+    <circle cx="380" cy="365" r="44" fill="#14b8a6" opacity=".22" stroke="#0f766e" stroke-width="7"/>
+    <circle cx="546" cy="294" r="74" fill="#2563eb" opacity=".18" stroke="#2563eb" stroke-width="7"/>
+    <circle cx="702" cy="390" r="56" fill="#8b5cf6" opacity=".18" stroke="#6d5bd0" stroke-width="7"/>
+    <circle cx="879" cy="316" r="64" fill="#14b8a6" opacity=".20" stroke="#0f766e" stroke-width="7"/>
+    <circle cx="989" cy="425" r="36" fill="#2563eb" opacity=".16" stroke="#2563eb" stroke-width="7"/>
+  </g>
+  <path d="M145 500h395" stroke="#d9e2ec" stroke-width="6" stroke-linecap="round"/>
+  <path d="M145 500h235" stroke="#2563eb" stroke-width="6" stroke-linecap="round"/>
+  <text x="104" y="536" font-family="Inter, Arial, sans-serif" font-size="22" fill="#172033">Top 5% · IoU 57.21%</text>
+</svg>

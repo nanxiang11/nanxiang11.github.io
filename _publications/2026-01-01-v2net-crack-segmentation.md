@@ -8,6 +8,18 @@ date: 2026-01-01
 venue: "IEEE Transactions on Instrumentation and Measurement"
 status: "第一作者"
 citation: "Wenhao Liu. &quot;V2Net: A Nested Framework for Crack Segmentation Based on Multiscale Feature Learning.&quot; <i>IEEE Transactions on Instrumentation and Measurement</i>."
+tags:
+  - Crack Segmentation
+  - Multiscale Learning
+  - VNet
+  - Industrial Vision
+stats:
+  - "Q1 / IF 5.9"
+  - "66.51% IoU"
+  - "+41.69% vs UNet"
+links:
+  - label: "GitHub"
+    url: "https://github.com/nanxiang11/NxV2net"
 ---
 
 V2Net 面向工业裂缝分割中目标尺度变化剧烈、细粒度结构易在多次下采样中丢失的问题，从特征组织结构层面分析 UNet / UNet++ 在多尺度建模上的冗余融合与语义错位问题。

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Kaggle 树叶分类项目缩略图</title>
+  <desc id="desc">树叶细粒度分类比赛的可视化缩略图。</desc>
+  <rect width="1200" height="630" fill="#f7fbf8"/>
+  <rect x="64" y="64" width="1072" height="502" rx="8" fill="#ffffff" stroke="#d7e5dc" stroke-width="3"/>
+  <text x="104" y="145" font-family="Inter, Arial, sans-serif" font-size="42" font-weight="700" fill="#172033">Leaf Classification</text>
+  <text x="104" y="191" font-family="Inter, Arial, sans-serif" font-size="24" fill="#526173">176 classes · ResNet50 · Deformable Conv · ECA</text>
+  <g transform="translate(160 250)">
+    <path d="M165 35C80 44 27 102 24 188c89 2 154-39 194-126 13-28-18-31-53-27z" fill="#34a853" opacity=".86"/>
+    <path d="M42 181c59-30 106-68 155-126" stroke="#0f5132" stroke-width="8" stroke-linecap="round" fill="none" opacity=".5"/>
+  </g>
+  <g transform="translate(464 250)">
+    <path d="M118 18C53 54 23 118 52 190c77-31 118-90 122-179-19-5-38-3-56 7z" fill="#7bb661" opacity=".9"/>
+    <path d="M59 179c36-43 66-91 93-143" stroke="#355e3b" stroke-width="8" stroke-linecap="round" fill="none" opacity=".5"/>
+  </g>
+  <g transform="translate(760 250)">
+    <path d="M62 20c94 20 142 71 144 153-77 11-143-22-201-98 8-25 25-44 57-55z" fill="#2f855a" opacity=".88"/>
+    <path d="M25 76c54 29 105 58 160 94" stroke="#0f5132" stroke-width="8" stroke-linecap="round" fill="none" opacity=".5"/>
+  </g>
+  <rect x="105" y="489" width="222" height="40" rx="8" fill="#e9fbf4"/>
+  <text x="130" y="516" font-family="Inter, Arial, sans-serif" font-size="20" fill="#0f766e">Top 10%</text>
+  <rect x="348" y="489" width="222" height="40" rx="8" fill="#eef4ff"/>
+  <text x="373" y="516" font-family="Inter, Arial, sans-serif" font-size="20" fill="#2563eb">98.27% Acc</text>
+</svg>

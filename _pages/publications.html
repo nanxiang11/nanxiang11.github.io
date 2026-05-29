@@ -7,24 +7,43 @@ author_profile: true
 
 {% include base_path %}
 
-这里整理我的主要科研工作，重点围绕工业视觉感知、轻量化语义分割与多尺度特征建模。
+<section class="lw-page-intro">
+  <p class="lw-eyebrow">Publications</p>
+  <h1>视觉感知与语义分割方向的科研工作。</h1>
+  <p>研究重点围绕工业裂缝分割、轻量化语义分割、多尺度特征学习和跨层级特征融合。</p>
+</section>
 
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
+{% assign papers = site.publications | sort: "date" | reverse %}
+<div class="lw-feature-list">
+  {% for post in papers %}
+    <article class="lw-feature">
+      <div>
+        <p class="lw-feature-type">{{ post.status }} · {{ post.venue }}</p>
+        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+        <p>{{ post.excerpt | strip_html }}</p>
+        {% if post.stats %}
+          <div class="lw-mini-stats">
+            {% for stat in post.stats %}
+              <span>{{ stat }}</span>
+            {% endfor %}
+          </div>
+        {% endif %}
+        {% if post.tags %}
+          <div class="lw-tags">
+            {% for tag in post.tags %}
+              <span>{{ tag }}</span>
+            {% endfor %}
+          </div>
+        {% endif %}
+        {% if post.links %}
+          <div class="lw-card-actions">
+            <a href="{{ post.url }}">详情</a>
+            {% for item in post.links %}
+              <a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.label }}</a>
+            {% endfor %}
+          </div>
+        {% endif %}
+      </div>
+    </article>
   {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+</div>

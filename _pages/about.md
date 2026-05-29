@@ -7,39 +7,105 @@ redirect_from:
   - /about.html
 ---
 
-我目前是上海工程技术大学电子信息硕士，研究与工程方向聚焦具身智能、多模态大模型和视觉感知算法。我的工作兴趣在于把模型结构理解、数据闭环和真实场景落地连接起来，尤其关注 VLA/具身智能系统、轻量化语义分割、多尺度特征建模和工业视觉感知。
+<section class="lw-hero">
+  <p class="lw-eyebrow">AI Algorithm Engineer · Embodied AI · Multimodal Perception</p>
+  <h1>把具身智能、多模态模型和视觉感知落到真实任务里。</h1>
+  <p class="lw-hero-lead">上海工程技术大学电子信息硕士，研究方向聚焦 VLA/具身智能系统、轻量化语义分割、多尺度特征建模与工业视觉感知。我更关注模型结构、数据闭环和工程落地之间的连接。</p>
+  <div class="lw-actions">
+    <a class="btn btn--primary" href="/files/liuwenhao-cv.pdf">下载简历 PDF</a>
+    <a class="btn" href="https://github.com/nanxiang11">GitHub</a>
+    <a class="btn" href="/portfolio/">查看项目</a>
+  </div>
+</section>
 
-[下载简历 PDF](/files/liuwenhao-cv.pdf){: .btn .btn--primary}
-[GitHub](https://github.com/nanxiang11){: .btn}
+<section class="lw-metrics" aria-label="关键成果">
+  <div class="lw-metric">
+    <span class="lw-metric-value">2</span>
+    <span class="lw-metric-label">第一作者科研工作</span>
+  </div>
+  <div class="lw-metric">
+    <span class="lw-metric-value">76+</span>
+    <span class="lw-metric-label">CodeLab_LLM GitHub Stars</span>
+  </div>
+  <div class="lw-metric">
+    <span class="lw-metric-value">Top 8</span>
+    <span class="lw-metric-label">RoboChallenge ICRA 2026</span>
+  </div>
+  <div class="lw-metric">
+    <span class="lw-metric-value">99.7%</span>
+    <span class="lw-metric-label">图像质量分类测试准确率</span>
+  </div>
+</section>
 
-研究方向
-======
+<section class="lw-section">
+  <div class="lw-section-head">
+    <p class="lw-eyebrow">Research Focus</p>
+    <h2>研究方向</h2>
+  </div>
+  <div class="lw-focus-grid">
+    <article class="lw-card">
+      <h3>具身智能与 VLA</h3>
+      <p>视觉-语言-动作建模、遥操作数据采集、指令到动作序列决策，以及真实系统联调。</p>
+    </article>
+    <article class="lw-card">
+      <h3>多模态大模型</h3>
+      <p>图文联合推理、视觉 token 融合、MoE/LoRA 训练推理闭环，以及 LLM 情绪到 TTS 控制链路。</p>
+    </article>
+    <article class="lw-card">
+      <h3>视觉感知算法</h3>
+      <p>裂缝分割、轻量化语义分割、旋转检测、人体分割与工业场景数据闭环。</p>
+    </article>
+  </div>
+</section>
 
-* 具身智能与 VLA：视觉-语言-动作建模、遥操作数据采集、指令到动作序列决策。
-* 多模态大模型：图文联合推理、视觉 token 融合、LLM 情绪理解与 TTS 控制链路。
-* 视觉感知：裂缝分割、轻量化语义分割、旋转检测、人体分割与工业场景数据闭环。
-* 模型工程：Transformer/MoE/LoRA 训练推理闭环、数据生成、模型部署与系统联调。
+<section class="lw-section">
+  <div class="lw-section-head">
+    <p class="lw-eyebrow">Selected Work</p>
+    <h2>精选成果</h2>
+  </div>
+  <div class="lw-feature-list">
+    <article class="lw-feature">
+      <div>
+        <p class="lw-feature-type">Publication</p>
+        <h3><a href="/publication/v2net-crack-segmentation">V2Net: Nested Multiscale Crack Segmentation</a></h3>
+        <p>面向工业裂缝分割的嵌套式多尺度特征学习框架，第一作者发表于 <em>IEEE TIM</em>。</p>
+      </div>
+      <a class="lw-feature-link" href="https://github.com/nanxiang11/NxV2net">Code</a>
+    </article>
+    <article class="lw-feature">
+      <div>
+        <p class="lw-feature-type">Project</p>
+        <h3><a href="https://github.com/nanxiang11/CodeLab_LLM">CodeLab_LLM / 星语 MoE</a></h3>
+        <p>从零实现 LLaMA 核心模块、MoE-FFN、预训练、SFT 与 LoRA，形成大模型最小闭环。</p>
+      </div>
+      <a class="lw-feature-link" href="/portfolio/">Projects</a>
+    </article>
+    <article class="lw-feature">
+      <div>
+        <p class="lw-feature-type">Competition</p>
+        <h3><a href="/competitions/">RoboChallenge ICRA Competition 2026</a></h3>
+        <p>Dexmal WBC Track 第 8 名，任务聚焦零售超市场景中的指令理解、导航和抓取操作。</p>
+      </div>
+      <a class="lw-feature-link" href="https://robochallenge.cn/competition/icra">Official</a>
+    </article>
+  </div>
+</section>
 
-科研亮点
-======
-
-* **V2Net**：提出面向工业裂缝分割的嵌套式多尺度特征学习框架，针对尺度变化、细粒度结构丢失和语义错位问题进行结构化改进，第一作者发表于 *IEEE Transactions on Instrumentation and Measurement*。
-* **HAFNet**：设计分层注意力与特征融合的实时轻量化语义分割网络，围绕浅层边界、中层结构和深层语义建立明确功能分工，目前以第一作者投稿 *IEEE TPAMI*。
-
-工程经历
-======
-
-* **商汤科技 SenseTime，算法实习生**：参与具身智能无人零售系统探索、图像质量分类模型、人体图像分割数据生成引擎和商品货架旋转检测优化，覆盖数据构建、模型训练、推理评估到系统联调。
-* **首形科技，具身智能算法实习生**：研发多模态情感交互系统，基于 Qwen3 微调、情感提示词体系和 LLM 到 TTS 的情绪向量控制链路，完成推理流程与工程部署。
-
-开源与实践
-======
-
-* **星语 MoE**：从零实现 LLaMA3 核心模块与 MoE-FFN 替换策略，构建 0.2B 参数量的可训练推理大模型。
-* **星语 Vision**：基于 CLIP 视觉编码器实现图像-文本多模态推理闭环。
-* **星语 pi0**：围绕 VLA 模型源码进行组件拆解与最小复现，梳理视觉、语言和动作预测的数据流。
-
-荣誉与竞赛
-======
-
-获得研究生国家奖学金、研究生数学建模国家二等奖、CAAI 智新杯国家二等奖、机器人与人工智能国家三等奖等荣誉；Kaggle 树叶图像分类进入前 10%，2018 Data Science Bowl 细胞核分割进入前 5%。
+<section class="lw-section">
+  <div class="lw-section-head">
+    <p class="lw-eyebrow">Experience</p>
+    <h2>工程经历</h2>
+  </div>
+  <div class="lw-timeline">
+    <article>
+      <span>2025.04 - 2025.11</span>
+      <h3>商汤科技 SenseTime · 算法实习生</h3>
+      <p>参与具身智能无人零售系统、图像质量分类、人体分割数据生成引擎和商品货架旋转检测优化，覆盖数据构建、模型训练、推理评估到系统联调。</p>
+    </article>
+    <article>
+      <span>2025.12 - 2026.01</span>
+      <h3>首形科技 · 具身智能算法实习生</h3>
+      <p>研发多模态情感交互系统，基于 Qwen3 微调、情感提示词体系和 LLM 到 TTS 的情绪向量控制链路完成工程落地。</p>
+    </article>
+  </div>
+</section>

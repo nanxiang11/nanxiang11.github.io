@@ -3,6 +3,22 @@ title: "星语 pi0：VLA 模型源码拆解与最小复现"
 excerpt: "围绕 pi0 源码构建最小可运行 VLA 系统，拆解视觉编码、语言建模和动作预测模块。"
 collection: portfolio
 link: "https://github.com/nanxiang11/XY_Pi0"
+order: 30
+type: "Vision-Language-Action"
+status: "Source Reading"
+image: "/images/project-xy-pi0.svg"
+stats:
+  - "VLA"
+  - "Forward / Loss"
+  - "Minimal Repro"
+tags:
+  - pi0
+  - VLA
+  - Attention
+  - Action Prediction
+links:
+  - label: "GitHub"
+    url: "https://github.com/nanxiang11/XY_Pi0"
 ---
 
 项目链接：[GitHub](https://github.com/nanxiang11/XY_Pi0)。

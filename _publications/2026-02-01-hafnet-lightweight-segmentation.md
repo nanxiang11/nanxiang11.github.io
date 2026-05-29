@@ -8,6 +8,18 @@ date: 2026-02-01
 venue: "IEEE Transactions on Pattern Analysis and Machine Intelligence"
 status: "第一作者，Under Review"
 citation: "Wenhao Liu. &quot;HAFNet: Hierarchical Attention and Feature Fusion for Real-Time Lightweight Semantic Segmentation.&quot; <i>IEEE Transactions on Pattern Analysis and Machine Intelligence</i>, Under Review."
+tags:
+  - Lightweight Segmentation
+  - Attention
+  - Feature Fusion
+  - Real-Time
+stats:
+  - "Under Review"
+  - "1.19M Params"
+  - "1.98 GFLOPs"
+links:
+  - label: "GitHub"
+    url: "https://github.com/nanxiang11/HAFNet"
 ---
 
 HAFNet 从语义分割网络的层级功能划分出发，分析浅层、中层与深层特征在边界建模、结构感知与语义抽象中的不同作用，针对传统轻量化模型多尺度协同不足的问题进行结构设计。

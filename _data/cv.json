@@ -95,6 +95,26 @@
     }
   ],
   "references": [],
+  "awards": [
+    {
+      "title": "RoboChallenge ICRA Competition 2026",
+      "date": "2026",
+      "awarder": "RoboChallenge",
+      "summary": "Dexmal WBC Track 第 8 名 / Top 8，提交 No.89757 / gr00t，Score 61.4，Success Rate 32%。"
+    },
+    {
+      "title": "中国研究生数学建模竞赛",
+      "date": "2024",
+      "awarder": "中国研究生数学建模竞赛",
+      "summary": "国家二等奖，队长。"
+    },
+    {
+      "title": "CAAI 智新杯",
+      "date": "2024",
+      "awarder": "CAAI",
+      "summary": "国家二等奖。"
+    }
+  ],
   "publications": [
     {
       "name": "V2Net: A Nested Framework for Crack Segmentation Based on Multiscale Feature Learning",

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">CodeLab LLM 项目缩略图</title>
+  <desc id="desc">从 Transformer 模块到 MoE 大模型训练闭环的项目图。</desc>
+  <rect width="1200" height="630" fill="#f8fafc"/>
+  <rect x="64" y="64" width="1072" height="502" rx="8" fill="#ffffff" stroke="#dbe3ef" stroke-width="3"/>
+  <text x="104" y="145" font-family="Inter, Arial, sans-serif" font-size="42" font-weight="700" fill="#172033">CodeLab_LLM</text>
+  <text x="104" y="191" font-family="Inter, Arial, sans-serif" font-size="24" fill="#526173">Transformer · MoE · SFT · LoRA</text>
+  <g transform="translate(128 265)">
+    <rect width="184" height="128" rx="8" fill="#eef4ff" stroke="#94b7ff" stroke-width="2"/>
+    <text x="43" y="74" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="700" fill="#2563eb">Attention</text>
+  </g>
+  <g transform="translate(380 265)">
+    <rect width="184" height="128" rx="8" fill="#f0fdfa" stroke="#5cc59f" stroke-width="2"/>
+    <text x="58" y="74" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="700" fill="#0f766e">MoE</text>
+  </g>
+  <g transform="translate(632 265)">
+    <rect width="184" height="128" rx="8" fill="#fff7ed" stroke="#f2b66d" stroke-width="2"/>
+    <text x="40" y="74" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="700" fill="#9a5b12">LoRA</text>
+  </g>
+  <g transform="translate(884 265)">
+    <rect width="184" height="128" rx="8" fill="#f5f3ff" stroke="#b4a7e8" stroke-width="2"/>
+    <text x="40" y="74" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="700" fill="#6d5bd0">Infer</text>
+  </g>
+  <path d="M320 329h50M572 329h50M824 329h50" stroke="#91a3b5" stroke-width="8" stroke-linecap="round"/>
+  <text x="104" y="514" font-family="Inter, Arial, sans-serif" font-size="24" fill="#172033">76+ Stars · 0.2B parameters · CPU inference</text>
+</svg>

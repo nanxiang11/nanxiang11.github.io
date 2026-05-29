@@ -59,6 +59,37 @@
   letter-spacing: 0;
 }
 
+#main,
+.page,
+.archive,
+.page__inner-wrap,
+.page__content,
+.lw-hero,
+.lw-page-intro,
+.lw-section,
+.lw-card,
+.lw-feature,
+.lw-project-card,
+.lw-competition-card,
+.lw-competition-hero {
+  min-width: 0;
+}
+
+.lw-hero h1,
+.lw-page-intro h1,
+.lw-card h3,
+.lw-feature h3,
+.lw-project-card h2,
+.lw-competition-card h2,
+.lw-competition-hero h2,
+.lw-metric-value,
+.lw-metric-label,
+.lw-card-actions a,
+.lw-mini-stats span,
+.lw-tags span {
+  overflow-wrap: anywhere;
+}
+
 .lw-eyebrow {
   margin: 0 0 0.65rem;
   color: var(--lw-teal);
@@ -386,9 +417,108 @@
 }
 
 @media (max-width: 640px) {
+  html,
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  body {
+    margin-bottom: 0 !important;
+    padding-bottom: 0;
+  }
+
+  #main {
+    margin-top: 1rem;
+    padding-left: 0.85rem;
+    padding-right: 0.85rem;
+  }
+
+  .page__footer {
+    position: static;
+    margin-top: 2rem;
+  }
+
+  .sidebar {
+    margin-top: 0.65rem;
+    margin-bottom: 0.85rem;
+  }
+
+  .sidebar > div {
+    display: grid;
+    grid-template-columns: 44px minmax(0, 1fr);
+    gap: 0.55rem 0.75rem;
+    align-items: center;
+  }
+
+  .author__avatar {
+    display: block;
+    width: 44px;
+  }
+
+  .author__avatar img {
+    width: 44px;
+    height: 44px;
+    object-fit: cover;
+  }
+
+  .author__content {
+    display: block;
+    min-width: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .author__name {
+    margin-bottom: 0.15rem;
+  }
+
+  .author__bio {
+    display: -webkit-box;
+    overflow: hidden;
+    line-height: 1.35;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+  }
+
+  .author__urls-wrapper {
+    display: block;
+    grid-column: 1 / -1;
+    width: 100%;
+  }
+
+  .author__urls-wrapper button {
+    padding: 0.42rem 0.7rem;
+  }
+
+  .author__urls {
+    left: 0;
+    right: auto;
+    max-width: 100%;
+    z-index: 30;
+  }
+
+  .archive > .page__title,
+  .page__title {
+    font-size: 1.45rem;
+    line-height: 1.15;
+  }
+
   .lw-hero h1,
   .lw-page-intro h1 {
-    font-size: 2rem;
+    font-size: 1.78rem;
+    line-height: 1.18;
+  }
+
+  .lw-hero,
+  .lw-page-intro {
+    padding: 0.85rem 0 1.2rem;
+  }
+
+  .lw-hero-lead,
+  .lw-page-intro p:not(.lw-eyebrow) {
+    font-size: 0.95rem;
+    line-height: 1.68;
   }
 
   .lw-metrics,
@@ -399,6 +529,47 @@
     grid-template-columns: 1fr;
   }
 
+  .lw-metrics,
+  .lw-project-grid,
+  .lw-competition-grid {
+    gap: 0.8rem;
+  }
+
+  .lw-section {
+    margin-top: 1.55rem;
+  }
+
+  .lw-card,
+  .lw-feature,
+  .lw-project-body,
+  .lw-competition-card,
+  .lw-competition-hero,
+  .lw-competition-hero aside {
+    padding: 0.85rem;
+  }
+
+  .lw-actions {
+    align-items: stretch;
+  }
+
+  .lw-actions .btn {
+    flex: 1 1 100%;
+    width: 100%;
+    padding: 0.65rem 0.85rem;
+    font-size: 0.82rem;
+  }
+
+  .lw-card-actions {
+    align-items: stretch;
+  }
+
+  .lw-card-actions a {
+    justify-content: center;
+    flex: 1 1 calc(50% - 0.55rem);
+    min-width: 0;
+    text-align: center;
+  }
+
   .lw-feature {
     display: block;
   }
@@ -406,5 +577,75 @@
   .lw-feature-link {
     display: inline-flex;
     margin-top: 0.5rem;
+  }
+
+  .lw-project-media {
+    aspect-ratio: 4 / 3;
+  }
+
+  .lw-project-media img {
+    object-fit: contain;
+    padding: 0.7rem;
+  }
+
+  .lw-competition-hero aside strong {
+    font-size: 1.32rem;
+  }
+
+  .cv-container {
+    max-width: 100%;
+  }
+
+  .cv-contact-info,
+  .cv-profiles,
+  .cv-item-header {
+    display: grid;
+    gap: 0.35rem;
+  }
+
+  .cv-list,
+  .cv-item-highlights {
+    padding-left: 1rem;
+  }
+
+  .cv-skills,
+  .cv-interests {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 420px) {
+  .masthead__inner-wrap {
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+  }
+
+  .greedy-nav {
+    min-width: 0;
+  }
+
+  .greedy-nav a {
+    margin-left: 0.42rem;
+    margin-right: 0.42rem;
+    font-size: 0.9rem;
+  }
+
+  .greedy-nav .visible-links li:first-child a {
+    margin-left: 0;
+  }
+
+  .masthead__menu-item--lg {
+    padding-right: 0.25em;
+  }
+}
+
+@media (max-width: 360px) {
+  .lw-hero h1,
+  .lw-page-intro h1 {
+    font-size: 1.62rem;
+  }
+
+  .lw-card-actions a {
+    flex-basis: 100%;
   }
 }

@@ -23,7 +23,7 @@ repository               : "nanxiang11/nanxiang11.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "liuwenhao-avatar.svg"
+  avatar           : "https://avatars.githubusercontent.com/u/83437432?v=4"
   name             : "刘文豪"
   pronouns         : # example: "she/her"  
   bio              : "AI 算法工程师方向，聚焦具身智能、多模态大模型与视觉感知。"

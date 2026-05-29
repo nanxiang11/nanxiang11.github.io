@@ -83,7 +83,7 @@ redirect_from:
           <div class="lw-feature-video-strip" aria-label="{{ post.title }} 视频预览">
             {% for video in post.videos %}
               <div class="lw-mini-video-card">
-                <video controls muted playsinline preload="metadata" poster="{{ video.poster }}">
+                <video autoplay muted loop playsinline preload="metadata" poster="{{ video.poster }}">
                   <source src="{{ video.src }}" type="video/mp4">
                 </video>
                 <span>{{ video.title }}</span>

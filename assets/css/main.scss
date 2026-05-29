@@ -253,7 +253,7 @@ body {
 
 .lw-feature--video {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 280px auto;
+  grid-template-columns: minmax(0, 1fr) 210px auto;
   align-items: start;
 }
 
@@ -281,8 +281,9 @@ body {
 
 .lw-feature-video-strip {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 0.55rem;
+  grid-template-columns: repeat(2, 96px);
+  justify-content: start;
+  gap: 0.5rem;
   min-width: 0;
 }
 
@@ -292,11 +293,12 @@ body {
 
 .lw-mini-video-card video {
   display: block;
-  width: 100%;
-  aspect-ratio: 9 / 16;
+  width: 96px;
+  height: 128px;
   border: 1px solid var(--lw-line);
   border-radius: 8px;
   object-fit: cover;
+  object-position: center 58%;
   background: #0f172a;
 }
 
@@ -724,6 +726,8 @@ body {
   }
 
   .lw-feature-video-strip {
+    grid-template-columns: repeat(2, 96px);
+    max-width: 206px;
     margin-top: 0.75rem;
   }
 

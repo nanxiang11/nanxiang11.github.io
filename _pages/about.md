@@ -64,6 +64,36 @@ redirect_from:
     <h2>精选成果</h2>
   </div>
   <div class="lw-feature-list">
+    {% assign featured_video_projects = site.portfolio | sort: "order" %}
+    {% for post in featured_video_projects %}
+      {% if post.videos %}
+        <article class="lw-feature lw-feature--video">
+          <div>
+            <p class="lw-feature-type">{{ post.type }} · Video Demo</p>
+            <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+            <p>{{ post.excerpt | strip_html }}</p>
+            {% if post.stats %}
+              <div class="lw-mini-stats">
+                {% for stat in post.stats %}
+                  <span>{{ stat }}</span>
+                {% endfor %}
+              </div>
+            {% endif %}
+          </div>
+          <div class="lw-feature-video-strip" aria-label="{{ post.title }} 视频预览">
+            {% for video in post.videos %}
+              <div class="lw-mini-video-card">
+                <video controls muted playsinline preload="metadata" poster="{{ video.poster }}">
+                  <source src="{{ video.src }}" type="video/mp4">
+                </video>
+                <span>{{ video.title }}</span>
+              </div>
+            {% endfor %}
+          </div>
+          <a class="lw-feature-link" href="{{ post.url }}#robot-demos">详情</a>
+        </article>
+      {% endif %}
+    {% endfor %}
     <article class="lw-feature">
       <div>
         <p class="lw-feature-type">Publication</p>

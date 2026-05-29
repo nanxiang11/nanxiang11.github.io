@@ -2,7 +2,7 @@
 title: "LeRobot pi0.5 + SO-101：双任务机械臂操作"
 excerpt: "基于 LeRobot 与 pi0.5 策略框架，在 SO-101 机械臂上完成叠毛巾与清理桌面两个真实桌面操作任务，验证从数据采集、策略学习到实体执行的闭环。"
 collection: portfolio
-order: 35
+order: 5
 type: "Embodied AI"
 status: "Robot Demo"
 image: "/images/project-lerobot-so101.svg"
@@ -15,6 +15,13 @@ tags:
   - pi0.5
   - SO-101
   - Robot Manipulation
+videos:
+  - title: "叠毛巾"
+    src: "/files/videos/lerobot-so101-towel-folding.mp4"
+    poster: "/images/projects/lerobot-so101-towel-folding.jpg"
+  - title: "清理桌面"
+    src: "/files/videos/lerobot-so101-table-cleaning.mp4"
+    poster: "/images/projects/lerobot-so101-table-cleaning.jpg"
 ---
 
 该项目围绕真实桌面场景下的机器人操作展开，使用 LeRobot 的数据与训练流程，结合 pi0.5 策略框架，在 SO-101 机械臂上完成两个不同类型的任务：叠毛巾与清理桌面。项目重点不是单一动作演示，而是验证“采集数据 - 训练策略 - 实体执行 - 观察误差”的完整闭环。
@@ -23,7 +30,7 @@ tags:
 * 清理桌面任务关注杂物场景中的目标定位和连续抓取，需要机械臂将桌面上的分散物体移动到指定区域。
 * 两个任务共同覆盖了刚性物体整理与柔性物体操作，能够更全面地检验策略的空间泛化、动作连续性和真实执行稳定性。
 
-<section class="lw-video-showcase" aria-label="LeRobot SO-101 video demonstrations">
+<section id="robot-demos" class="lw-video-showcase" aria-label="LeRobot SO-101 video demonstrations">
   <div class="lw-section-head">
     <p class="lw-eyebrow">Robot Demos</p>
     <h2>真实机械臂任务演示</h2>

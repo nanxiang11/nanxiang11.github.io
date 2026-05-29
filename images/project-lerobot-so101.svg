@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">LeRobot SO-101 robot manipulation project thumbnail</title>
+  <desc id="desc">A clean research-style thumbnail for a LeRobot pi0.5 SO-101 robot arm project with towel folding and table cleaning tasks.</desc>
+  <rect width="1200" height="630" fill="#f8fafc"/>
+  <rect x="64" y="64" width="1072" height="502" rx="8" fill="#ffffff" stroke="#dbe3ef" stroke-width="3"/>
+  <text x="104" y="142" font-family="Inter, Arial, sans-serif" font-size="42" font-weight="700" fill="#172033">LeRobot pi0.5 x SO-101</text>
+  <text x="104" y="190" font-family="Inter, Arial, sans-serif" font-size="24" fill="#526173">Embodied manipulation with two real-world tabletop tasks</text>
+
+  <g transform="translate(120 270)">
+    <rect width="270" height="170" rx="8" fill="#eef4ff" stroke="#94b7ff" stroke-width="3"/>
+    <circle cx="84" cy="70" r="30" fill="#2563eb" opacity=".16"/>
+    <path d="M84 72h76l52 42" fill="none" stroke="#2563eb" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M213 116l34 24" fill="none" stroke="#2563eb" stroke-width="10" stroke-linecap="round"/>
+    <path d="M226 132l30-18M226 132l16 30" fill="none" stroke="#2563eb" stroke-width="7" stroke-linecap="round"/>
+    <text x="28" y="142" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" fill="#172033">SO-101 Arm</text>
+  </g>
+
+  <g transform="translate(468 270)">
+    <rect width="260" height="170" rx="8" fill="#f0fdfa" stroke="#5cc59f" stroke-width="3"/>
+    <path d="M62 55h138v40H62z" fill="#ffffff" stroke="#0f766e" stroke-width="5"/>
+    <path d="M78 95l52 42 54-42" fill="none" stroke="#0f766e" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="38" y="142" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" fill="#172033">Towel Folding</text>
+  </g>
+
+  <g transform="translate(806 270)">
+    <rect width="270" height="170" rx="8" fill="#fff7ed" stroke="#f2b66d" stroke-width="3"/>
+    <rect x="44" y="72" width="170" height="18" rx="9" fill="#9a5b12" opacity=".25"/>
+    <circle cx="78" cy="54" r="18" fill="#b7791f" opacity=".72"/>
+    <rect x="128" y="42" width="54" height="42" rx="8" fill="#b7791f" opacity=".72"/>
+    <path d="M68 116h122M190 116l-22-18M190 116l-22 18" fill="none" stroke="#9a5b12" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="32" y="142" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" fill="#172033">Table Cleaning</text>
+  </g>
+
+  <path d="M404 355h42M742 355h42" stroke="#91a3b5" stroke-width="8" stroke-linecap="round"/>
+  <text x="104" y="514" font-family="Inter, Arial, sans-serif" font-size="24" fill="#172033">Data collection · Policy learning · Real robot execution</text>
+</svg>

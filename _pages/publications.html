@@ -17,7 +17,12 @@ author_profile: true
 <div class="lw-feature-list">
   {% for post in papers %}
     <article class="lw-feature">
-      <div>
+      {% if post.image %}
+        <a class="lw-publication-thumb" href="{{ post.url }}" aria-label="{{ post.title }}">
+          <img src="{{ post.image }}" alt="{{ post.title }} thumbnail" loading="lazy">
+        </a>
+      {% endif %}
+      <div class="lw-feature-body">
         <p class="lw-feature-type">{{ post.status }} · {{ post.venue }}</p>
         <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
         <p>{{ post.excerpt | strip_html }}</p>

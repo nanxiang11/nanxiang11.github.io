@@ -250,6 +250,29 @@ body {
   padding: 1rem;
 }
 
+.lw-feature-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.lw-publication-thumb {
+  display: block;
+  flex: 0 0 180px;
+  align-self: flex-start;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  border: 1px solid var(--lw-line);
+  border-radius: 8px;
+  background: var(--lw-soft);
+}
+
+.lw-publication-thumb img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
 .lw-feature--video {
   display: grid;
   grid-template-columns: minmax(0, 1fr) 210px auto;
@@ -717,6 +740,11 @@ body {
 
   .lw-feature {
     display: block;
+  }
+
+  .lw-publication-thumb {
+    width: 100%;
+    margin-bottom: 0.75rem;
   }
 
   .lw-feature--video {

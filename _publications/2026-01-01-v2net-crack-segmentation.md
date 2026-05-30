@@ -24,6 +24,13 @@ links:
 
 V2Net 面向工业裂缝分割中目标尺度变化剧烈、细粒度结构易在多次下采样中丢失的问题，从特征组织结构层面分析 UNet / UNet++ 在多尺度建模上的冗余融合与语义错位问题。
 
+## 网络结构图
+
+<figure>
+  <img src="/images/publications/v2net-architecture.png" alt="V2Net 网络结构图" loading="lazy">
+  <figcaption>V2Net 网络结构图。</figcaption>
+</figure>
+
 主要贡献包括：
 
 * 提出嵌套式多尺度特征学习框架，将网络拆解为多个 VNet 子结构，并通过匹配式跳跃连接实现跨尺度单元的语义对齐与特征复用。

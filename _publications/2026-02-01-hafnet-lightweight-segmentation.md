@@ -24,6 +24,13 @@ links:
 
 HAFNet 从语义分割网络的层级功能划分出发，分析浅层、中层与深层特征在边界建模、结构感知与语义抽象中的不同作用，针对传统轻量化模型多尺度协同不足的问题进行结构设计。
 
+## 网络结构图
+
+<figure>
+  <img src="/images/publications/hafnet-architecture.png" alt="HAFNet 网络结构图" loading="lazy">
+  <figcaption>HAFNet 网络结构图。</figcaption>
+</figure>
+
 主要贡献包括：
 
 * 提出分层协同的轻量化语义分割架构，明确不同层级特征的功能分工。
